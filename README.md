@@ -1,2 +1,3 @@
 # tUtils
- JavaScript library of lots of functions.
+
+JavaScript library of lots of functions.
