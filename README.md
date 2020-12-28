@@ -23,3 +23,7 @@ Formats the date to be human-readable.
 ### speak(text)
 
 Speaks a string of text (through WebTTS).
+
+### getPi()
+
+Returns a few digits of Pi.

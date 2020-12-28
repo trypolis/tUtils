@@ -61,3 +61,7 @@ function speak(text) {
   }
   synth.speak(utterThis);
 }
+
+function getPi() {
+  return 3.1415926;
+}
