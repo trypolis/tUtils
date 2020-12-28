@@ -13,7 +13,6 @@ function randomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-// Generates a string of random characters.
 function generateToken(length) {
   // Feel free to edit as needed depending on what you want generated.
   let symbols = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
@@ -24,7 +23,6 @@ function generateToken(length) {
   return final;
 }
 
-// Formats the time (e.g. 10:25:18 PM).
 function formatTime() {
   let clockString = '';
   let currentTime = new Date();
@@ -34,6 +32,7 @@ function formatTime() {
     minutes = '0' + minutes;
   }
   if (hours > 12) {
+    // We want 12-hour time.
     hours -= 12;
     clockString += hours + ':' + minutes + ' PM';
   } else {
@@ -42,7 +41,6 @@ function formatTime() {
   return clockString;
 }
 
-// Makes the current date human-readable.
 function formatDate() {
   let clockString = '';
   let today = new Date();
