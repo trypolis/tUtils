@@ -8,7 +8,10 @@
 
 "use strict";
 
-// JavaScript doesn"t provide an easy way to get a random int out of the box, because reasons.
+// Global objects.
+let synth = window.speechSynthesis;
+
+// JavaScript doesn't provide an easy way to get a random int out of the box, because reasons.
 function randomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
@@ -49,4 +52,12 @@ function formatDate() {
   let yyyy = today.getFullYear();
   clockString += "" + mm + "/" + dd + "/" + yyyy;
   return clockString;
+}
+
+function speak(text) {
+  const utterThis = new SpeechSynthesisUtterance(text);
+  if (typeof synth.stop !== 'undefined') {
+    synth.stop();
+  }
+  synth.speak(utterThis);
 }
