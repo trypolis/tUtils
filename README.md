@@ -19,3 +19,7 @@ Formats the time to be human-readable.
 ### formatDate()
 
 Formats the date to be human-readable.
+
+### speak(text)
+
+Speaks a string of text (through WebTTS).
