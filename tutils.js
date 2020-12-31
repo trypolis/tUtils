@@ -8,10 +8,7 @@
 
 "use strict";
 
-// JavaScript doesn't provide an easy way to get a random int out of the box, because reasons.
-function randomInt(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+/* String related functions. */
 
 function generateToken(length) {
   // Feel free to edit as needed depending on what you want generated.
@@ -51,6 +48,8 @@ function formatDate() {
   return clockString;
 }
 
+/* Number/math related functions. */
+
 function getPi() {
   return 3.141592654;
 }
@@ -58,4 +57,9 @@ function getPi() {
 // Returns a random Arbitrary number.
 function randomArbitrary(min, max) {
   return Math.random() * (max - min) + min;
+}
+
+// JavaScript doesn't provide an easy way to get a random int out of the box, because reasons.
+function randomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }

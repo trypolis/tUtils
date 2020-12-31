@@ -4,26 +4,30 @@ JavaScript library of lots of functions.
 
 ## Functions.
 
-### randomInt(min, max);
+### String related functions.
 
-Returns a random number in the given range.
-
-### generateToken(length);
+#### generateToken(length);
 
 Generates a random string based on the characters given.
 
-### formatTime()
+#### formatTime()
 
 Formats the time to be human-readable.
 
-### formatDate()
+#### formatDate()
 
 Formats the date to be human-readable.
 
-### getPi()
+### Number/math related functions.
+
+#### getPi()
 
 Returns a few digits of Pi.
 
-### randomArbitrary(min, max)
+#### randomArbitrary(min, max)
 
 Returns a random arbitrary number.
+
+#### randomInt(min, max);
+
+Returns a random number in the given range.
