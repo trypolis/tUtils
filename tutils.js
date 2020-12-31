@@ -63,5 +63,5 @@ function speak(text) {
 }
 
 function getPi() {
-  return 3.1415926;
+  return 3.141592654;
 }
