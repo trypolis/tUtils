@@ -27,3 +27,7 @@ Speaks a string of text (through WebTTS).
 ### getPi()
 
 Returns a few digits of Pi.
+
+### randomArbitrary(min, max)
+
+Returns a random arbitrary number.

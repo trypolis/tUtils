@@ -65,3 +65,8 @@ function speak(text) {
 function getPi() {
   return 3.141592654;
 }
+
+// Returns a random Arbitrary number.
+function randomArbitrary(min, max) {
+  return Math.random() * (max - min) + min;
+}
