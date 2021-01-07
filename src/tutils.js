@@ -28,8 +28,8 @@ function formatTime() {
   if (minutes < 10) {
     minutes = "0" + minutes;
   }
+  // Feel free to remove this little bit of black magic if you want 24-hour time.
   if (hours > 12) {
-    // We want 12-hour time.
     hours -= 12;
     clockString += hours + ":" + minutes + " PM";
   } else {
@@ -54,12 +54,11 @@ function getPi() {
   return 3.141592654;
 }
 
-// Returns a random Arbitrary number.
 function randomArbitrary(min, max) {
   return Math.random() * (max - min) + min;
 }
 
-// JavaScript doesn't provide an easy way to get a random int out of the box, because reasons.
 function randomInt(min, max) {
+  // JavaScript doesn't provide an easy way to get a random int out of the box, because reasons.
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
