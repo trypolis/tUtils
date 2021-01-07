@@ -6,6 +6,6 @@
  * MIT License.
  */
 
-'use strict';
+"use strict";
 
 document.getElementById("the-calendar").innerHTML = formatTime() + ", on " + formatDate();

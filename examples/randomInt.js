@@ -6,6 +6,6 @@
  * MIT License.
  */
 
-'use strict';
+"use strict";
 
 document.getElementById("the-number").innerHTML = randomInt(1, 20);

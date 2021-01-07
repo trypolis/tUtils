@@ -6,6 +6,6 @@
  * MIT License.
  */
 
-'use strict';
+"use strict";
 
 document.getElementById("the-token").innerHTML = generateToken(randomInt(5, 25));
